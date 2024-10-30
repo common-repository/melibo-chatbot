@@ -1,0 +1,396 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: 2022-05-11 14:55+0200\n"
+"PO-Revision-Date: 2022-05-11 14:56+0200\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: de\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 3.0.1\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-KeywordsList: __;_e;esc_html;esc_html__;esc_att;esc_attr;esc_attr__;"
+"esc_attr_e;esc_html_e\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: admin/MeliboChatbot.class.php:42
+msgid "General"
+msgstr "Allgemein"
+
+#: admin/MeliboChatbot.class.php:43
+msgid "Environment"
+msgstr "Environment"
+
+#: admin/MeliboChatbot.class.php:49
+msgid "API Key"
+msgstr "API Key"
+
+#: admin/MeliboChatbot.class.php:55
+msgid ""
+"You can find the API key for your chatbot in your melibo account under "
+"\"Settings\" > \"Installation\". Here you can see the API key in the code "
+"snippet."
+msgstr ""
+"Den API Key zu deinem Chatbot findest du in deinem melibo Account unter "
+"“Einstellungen” > “Installation”. Hier ist der API Key im Code Snippet zu "
+"sehen."
+
+#: admin/MeliboChatbot.class.php:62 admin/MeliboValidation.class.php:34
+msgid "The API key must not contain any spaces."
+msgstr "Der API-Key darf keine Leerzeichen enthalten."
+
+#: admin/MeliboChatbot.class.php:69
+msgid "Environment ID"
+msgstr "Environment ID"
+
+#: admin/MeliboChatbot.class.php:75
+msgid ""
+"You can optionally use the Environment ID if you want to use different chat "
+"widgets. For example, you can give your chatbot a different look for your "
+"contact page than for your homepage. This way you can give your chatbot a "
+"different appearance on different subpages on your website."
+msgstr ""
+"Die Environment ID kannst du optional benutzen, wenn du verschiedene Chat-"
+"Widgets verwenden möchtest. Zum Beispiel kannst du deinem Chatbot für deine "
+"Kontaktseite ein anderes Aussehen geben, als für deine Startseite. Dadurch "
+"kannst du deinen Chatbot auf verschiedenen Unterseiten deiner Website einen "
+"unterschiedlichen Auftritt geben."
+
+#: admin/MeliboChatbot.class.php:84
+msgid "page selection"
+msgstr "Seitenauswahl"
+
+#: admin/MeliboChatbot.class.php:91
+msgid "Select the pages you want your chatbot to appear on."
+msgstr "Wähle die Seiten aus, auf denen dein Chatbot erscheinen soll."
+
+#: admin/MeliboChatbot.class.php:101
+msgid "Activate chatbot"
+msgstr "Chatbot aktivieren"
+
+#: admin/MeliboChatbot.class.php:107
+msgid ""
+"As soon as you tick the box here and click on \"Save changes\", your melibo "
+"chatbot will appear on your website."
+msgstr ""
+"Sobald du hier einen Haken im Kästchen setzt und auf “Änderungen speichern” "
+"klickst, wird dein melibo Chatbot auf deiner Website erscheinen."
+
+#: admin/MeliboChatbot.class.php:116
+msgid "excluded pages"
+msgstr "ausgeschlossene Seiten"
+
+#: admin/MeliboChatbot.class.php:124
+msgid "Select the pages you do"
+msgstr "Wähle die Seiten aus, auf denen dein Chatbot"
+
+#: admin/MeliboChatbot.class.php:125
+msgid "not"
+msgstr "nicht"
+
+#: admin/MeliboChatbot.class.php:126
+msgid "want your chatbot to appear on."
+msgstr "erscheinen soll."
+
+#: admin/MeliboChatbot.class.php:160
+msgid "melibo Settings"
+msgstr "melibo Einstellungen"
+
+#: admin/MeliboChatbot.class.php:239 admin/MeliboView.class.php:30
+msgid "Settings"
+msgstr "Einstellungen"
+
+#: admin/MeliboValidation.class.php:29
+msgid "The API key must not be empty."
+msgstr "Der API-Key darf nicht leer sein."
+
+#: admin/MeliboValidation.class.php:48
+msgid "The entered API key is not valid."
+msgstr "Der eingetragene API-Key ist nicht gültig."
+
+#: admin/MeliboValidation.class.php:63
+msgid "The Environment ID must not contain any spaces."
+msgstr "Die Environment ID darf keine Leerzeichen enthalten."
+
+#: admin/MeliboValidation.class.php:76
+msgid "The entered EnvironmentID is not valid with the API key."
+msgstr "Die eingetragene EnvironmentID ist mit dem API-Key nicht gültig."
+
+#: admin/MeliboValidation.class.php:89
+msgid "An unexpected error occurred during testing."
+msgstr "Beim Prüfen ist ein unerwarteter Fehler aufgetreten."
+
+#: admin/MeliboView.class.php:31
+msgid "First Steps"
+msgstr "Erste Schritte"
+
+#: admin/MeliboView.class.php:32
+msgid "Academy"
+msgstr "Academy"
+
+#: admin/MeliboView.class.php:67
+msgid "Registration"
+msgstr "Registrierung"
+
+#: admin/MeliboView.class.php:72
+msgid "Step: Link to the"
+msgstr "Schritt: Link zu der"
+
+#: admin/MeliboView.class.php:73 admin/MeliboView.class.php:77
+msgid "register page"
+msgstr "Registrierungsseite"
+
+#: admin/MeliboView.class.php:80
+msgid ""
+"If you don't have a melibo account yet, you need to register for free using "
+"the link above. Fill in the fields in the registration form and you're just "
+"one click away from getting started."
+msgstr ""
+"Wenn du noch keinen melibo Account hast, musst du dich kostenlos unter dem "
+"obenstehenden Link registrieren. Fülle die Felder in der Anmeldemaske aus "
+"und schon bist du nur noch einen Klick davon entfernt, um zu starten."
+
+#: admin/MeliboView.class.php:85
+msgid "Step: Activation email"
+msgstr "Schritt: Aktivierungsmail"
+
+#: admin/MeliboView.class.php:88
+msgid "Activation email"
+msgstr "Aktivierungsmail"
+
+#: admin/MeliboView.class.php:91
+msgid ""
+"Go to your mailbox and activate your account via the button. You will be "
+"automatically redirected to the login after confirmation."
+msgstr ""
+"Gehe in dein Postfach und aktiviere deinen Account über den Button. Du wirst "
+"automatisch nach der Bestätigung zum Login weitergeleitet."
+
+#: admin/MeliboView.class.php:96
+msgid "Step: Log in"
+msgstr "Schritt: Log-In"
+
+#: admin/MeliboView.class.php:99
+msgid "Log in"
+msgstr "Log-In"
+
+#: admin/MeliboView.class.php:102
+msgid ""
+"Enter your email address and password. If you have forgotten your password, "
+"you can reset it here. After successfully logging in, you will be redirected "
+"to the editor. On-boarding will take place, which will explain the first "
+"steps with melibo to you."
+msgstr ""
+"Gebe deine E-Mail-Adresse und dein Passwort ein. Falls du dein Passwort "
+"vergessen hast, kannst du es hier einfach zurücksetzen. Nach dem "
+"erfolgreichen Log-In wirst du zum Editor weitergeleitet. Es erfolgt das On-"
+"Boarding, welches dir die ersten Schritte mit melibo erklärt."
+
+#: admin/MeliboView.class.php:109
+msgid "Chatbot Design"
+msgstr "Chatbot Design"
+
+#: admin/MeliboView.class.php:113
+msgid "Step: Create your chatbot design"
+msgstr "Schritt: Erstelle dein Chatbot Design"
+
+#: admin/MeliboView.class.php:116
+msgid "View Chatbot Design Settings"
+msgstr "Ansicht Chatbot Design Einstellungen"
+
+#: admin/MeliboView.class.php:119
+msgid ""
+"Go to the \"Settings\" on melibo and then to the \"Chatbot Styler\" tab in "
+"the left column. Here you can define the design of your chatbot and adapt it "
+"to your brand. Learn"
+msgstr ""
+"Gehe in die „Einstellungen“ auf melibo und dann auf den Reiter „Chatbot "
+"Styler“ in der linken Spalte. Hier kannst du das Design deines Chatbots "
+"bestimmen und an deine Brand anpassen. Hier erfährst du"
+
+#: admin/MeliboView.class.php:120
+msgid "more here"
+msgstr "mehr"
+
+#: admin/MeliboView.class.php:125
+msgid "Step: Templates"
+msgstr "Schritt: Templates"
+
+#: admin/MeliboView.class.php:128
+msgid "Choose one or more templates"
+msgstr "Wähle ein oder mehrere Templates"
+
+#: admin/MeliboView.class.php:131
+msgid ""
+"Choose from a variety of ready-made chats and deposit your answer. The "
+"templates save you time when setting up the chatbot and give you inspiration "
+"for further chats."
+msgstr ""
+"Wähle aus verschiedenen fertigen Chats aus und hinterlege deine Antwort. "
+"Durch die Templates sparst du dir Zeit beim Chatbot Aufbau und erhältst "
+"Inspiration für weitere."
+
+#: admin/MeliboView.class.php:136
+msgid "Step: Create hot topics - design the chatbot introduction"
+msgstr "Schritt: Hot-Topics anlegen - die Chatbot Einleitung gestalten"
+
+#: admin/MeliboView.class.php:139
+msgid "Hot topics and introductory texts"
+msgstr "Hot-Topics und Einleitungstexte"
+
+#: admin/MeliboView.class.php:142
+msgid ""
+"Which chats should your chat welcome your users with? With the hot topics "
+"you can suggest topics to your users at the beginning of the chat. To do "
+"this, click on \"Add\" and select the chats from your library that should be "
+"included in the introduction. Then test the chats in your chat window. You "
+"can find out more about the hot topics"
+msgstr ""
+"Mit welchen Chats soll dein Chat deine User:innen begrüßen? Mit den Hot-"
+"Topics kannst du deinen User:innen Themen zu Beginn des Chats vorschlagen. "
+"Klicke hierfür auf „Hinzufügen“ und wähle die Chats aus deiner Library aus, "
+"die in der Einleitung stehen sollen. Teste im Anschluss die Chats in deinem "
+"Chat-Fenster. Mehr zu den Hot-Topics erfährst du"
+
+#: admin/MeliboView.class.php:143
+msgid "here"
+msgstr "hier"
+
+#: admin/MeliboView.class.php:150
+msgid "Installation"
+msgstr "Installation"
+
+#: admin/MeliboView.class.php:154
+msgid ""
+"Once you have created your chatbot design and the chats, you can take your "
+"bot online! Simply follow the steps below:"
+msgstr ""
+"Wenn du dein Chatbot Design und die Chats erstellst hast, kannst du deinen "
+"Bot auch schon online nehmen! Befolge dafür einfach die folgenden Schritte:"
+
+#: admin/MeliboView.class.php:157
+msgid "Copy your personal API key and paste it in the \"API key\" field."
+msgstr ""
+"Kopiere deinen persönlichen API-Key und füge ihn im Feld \"API-Key\" ein."
+
+#: admin/MeliboView.class.php:158
+msgid ""
+"To take your bot online on the website, check the \"Activate chatbot\" box."
+msgstr ""
+"Um deinen Bot auf der Website online zu nehmen, setze den Haken bei "
+"\"Chatbot aktivieren\"."
+
+#: admin/MeliboView.class.php:159
+msgid "Save your settings."
+msgstr "Speicher deine Einstellungen."
+
+#: admin/MeliboView.class.php:172
+msgid ""
+"To get started, we recommend that you watch our video series \"How does...?"
+"\" melibo on"
+msgstr ""
+"Grundsätzlich empfehlen wir dir zum Start, dass du dir unsere Video-Reihe "
+"„Wie funktioniert...?“ melibo auf"
+
+#: admin/MeliboView.class.php:173
+msgid "YouTube."
+msgstr "Youtube anschaust."
+
+#: admin/MeliboView.class.php:176
+msgid "As a first video, it is worth watching the video"
+msgstr "Als erstes Video lohnt es sich das Video"
+
+#: admin/MeliboView.class.php:177
+msgid "\"How melibo works | Everything you need to know\""
+msgstr "„Wie funktionert melibo | Alles was man wissen muss“"
+
+#: admin/MeliboView.class.php:178
+msgid ", because all the important functions are presented there."
+msgstr "anzuschauen, weil dort alle wichtigen Funktionen vorgestellt werden."
+
+#: admin/MeliboView.class.php:182 admin/MeliboView.class.php:189
+msgid "Knowledge Base"
+msgstr "Knowledge Base"
+
+#: admin/MeliboView.class.php:188
+msgid ""
+"In our Knowledge Base you will find answers and instructions on all topics "
+"concerning melibo. Click here to go to the"
+msgstr ""
+"In unserer Knowledge Base findest du Antworten und Anleitungen zu allen "
+"Themen rund um melibo. Hier kommst du zur"
+
+#: admin/MeliboView.class.php:196
+msgid "Blog article"
+msgstr "Blog-Artikel"
+
+#: admin/MeliboView.class.php:202
+msgid ""
+"The blog provides you with additional content, exciting tips & tricks, as "
+"well as the latest news & updates. We publish a blog article every week. "
+"Discover our"
+msgstr ""
+"Der Blog liefert dir zusätzlichen Content, spannende Tipps & Tricks, sowie "
+"aktuelle News & Updates. Wir veröffentlichen jede Woche einen Blog-Artikel. "
+"Entdecke unseren"
+
+#: admin/MeliboView.class.php:203
+msgid "blog"
+msgstr "Blog"
+
+#: admin/MeliboView.class.php:214
+msgid "Do you still have questions or need help?"
+msgstr "Hast du noch Fragen oder brauchst Hilfe?"
+
+#: admin/MeliboView.class.php:215
+msgid "Let's Talk! Write to us."
+msgstr "Let´s Talk! Schreibe uns."
+
+#: admin/MeliboView.class.php:217
+msgid "Ask us your question at"
+msgstr "Stelle uns deine Frage unter"
+
+#: admin/MeliboView.class.php:220
+msgid "Would you like personal advice? Then contact us at"
+msgstr "Du möchtest persönlich beraten werden? Dann melde dich unter"
+
+#: admin/MeliboView.class.php:222
+msgid "and we will arrange a free appointment."
+msgstr "und wir vereinbaren einen kostenlosen Termin."
+
+#: admin/MeliboView.class.php:224
+msgid "Many greetings,"
+msgstr "Viele Grüße,"
+
+#: admin/MeliboView.class.php:226
+msgid "Your"
+msgstr "Dein"
+
+#: admin/MeliboView.class.php:228
+msgid "team"
+msgstr "Team"
+
+#: admin/inc/notice.php:12
+msgid ""
+"Hello! Thank you very much for downloading our plugin and using it for your "
+"website!"
+msgstr ""
+"Hallo! Vielen Dank, dass du unser Plugin heruntergeladen hast und es für "
+"deine Webseite benutzen möchtest!"
+
+#: admin/inc/notice.php:14
+msgid "You can test melibo for free."
+msgstr "Du kannst melibo kostenlos testen."
+
+#: admin/inc/notice.php:17
+msgid "Start now!"
+msgstr "Jetzt beginnen!"
+
+#~ msgid "Select the pages you do not want your chatbot to appear on."
+#~ msgstr "Wähle die Seiten aus, auf denen dein Chatbot nicht erscheinen soll."
+
+#~ msgid "Add"
+#~ msgstr "Hinzufügen"

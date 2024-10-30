@@ -1,0 +1,44 @@
+.melibo-notice {
+    background-color: white;
+	display: flex;
+	flex-direction: row;
+}
+
+.melibo-notice.alert {
+    background-color: red;
+}
+
+.melibo-notice .melibo-notice-logo {
+	display: flex;
+	flex-direction: column;
+    justify-content: center;
+}
+
+.melibo-notice .melibo-notice-content {
+	display: flex;
+    flex-direction: column;
+    padding-left: 10px;
+	margin-bottom: 5px;
+}
+
+.melibo-notice .melibo-notice-content a {
+	text-decoration: none;
+}
+
+.melibo-notice .melibo-notice-content a:hover {
+	text-decoration: underline;
+}
+
+.melibo-notice .melibo-button {
+	font-weight: bold;
+	border: 1px solid #5D9D9B;
+	text-align: center;
+	padding: 10px 5px;
+	color: #FFFFFF;
+	background: #5D9D9B;
+	-moz-border-radius: 2px;
+	border-radius: 5px;
+	-webkit-border-radius: 5px;
+	width: 100%;
+	cursor: pointer;
+}

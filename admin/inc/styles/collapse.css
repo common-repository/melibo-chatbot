@@ -1,0 +1,81 @@
+.collapse summary {
+    list-style: inside none;
+  }
+  
+  .collapse {
+    --sp-md: 1rem;
+    --title-background-color: #695D9D;
+  
+    width: 100%;
+    margin-bottom: 5px;
+    max-width: 72rem;
+    border: 0.1rem solid var(--title-background-color);
+    box-shadow: 0.1rem 0.1rem 0.3rem rgba(0, 0, 0, 0.25);
+    background-color: white;
+    transition: box-shadow 250ms;
+    will-change: box-shadow;
+    overflow: hidden;
+  }
+  
+  .collapse:hover {
+      box-shadow: 0.1rem 0.1rem 1.8rem rgba(0, 0, 0, 0.25);
+  }
+  
+  .collapse .title {
+      position: relative;
+      background-color: var(--title-background-color);
+      color: white;
+      padding: var(--sp-md);
+      font-size: 1.2rem;
+      user-select: none;
+      cursor: pointer;
+  }
+  
+  .collapse .title::after {
+      content: "→";
+      position: absolute;
+      right: var(--sp-md);
+      top: 50%;
+      transform: translateY(-50%);
+  }
+  
+  .collapse[open] .title::after {
+      content: "↓";
+  }
+  
+  .collapse .divider {
+      margin: 0 var(--sp-md);
+      border-radius: 99em;
+      border: 0.1rem solid currentColor;
+      background: currentColor;
+      color: #e1e1e1;
+  }
+  
+  .academy_conent p {
+    font-size: 1.1rem !important;
+  }
+
+  .collapse .description,
+  .collapse .description p {
+      padding: var(--sp-md);
+      margin: 0;
+      font-size: 1.1rem !important;
+  }
+
+  .collapse .description span {
+      line-height: 1.6rem;
+  }
+
+  .collapse .description dd {
+      margin-bottom: 40px;
+  }
+
+  .collapse .description img {
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+  
+  .collapse .description:not(:first-of-type) {
+      padding-top: 0;
+  }
